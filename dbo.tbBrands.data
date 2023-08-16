@@ -1,0 +1,8 @@
+﻿SET IDENTITY_INSERT [dbo].[tbBrands] ON
+INSERT INTO [dbo].[tbBrands] ([BrandID], [Name]) VALUES (1, N'Wrangler')
+INSERT INTO [dbo].[tbBrands] ([BrandID], [Name]) VALUES (2, N'Adidas')
+INSERT INTO [dbo].[tbBrands] ([BrandID], [Name]) VALUES (3, N'Nike')
+INSERT INTO [dbo].[tbBrands] ([BrandID], [Name]) VALUES (4, N'Join Player')
+INSERT INTO [dbo].[tbBrands] ([BrandID], [Name]) VALUES (5, N'DolchGabana')
+INSERT INTO [dbo].[tbBrands] ([BrandID], [Name]) VALUES (6, N'Umbro')
+SET IDENTITY_INSERT [dbo].[tbBrands] OFF

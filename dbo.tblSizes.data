@@ -1,0 +1,7 @@
+﻿SET IDENTITY_INSERT [dbo].[tblSizes] ON
+INSERT INTO [dbo].[tblSizes] ([SizeID], [SizeName], [BrandID], [CategoryID], [SubCategoryID], [GenderID]) VALUES (1, N'S', 2, 1, 2, 2)
+INSERT INTO [dbo].[tblSizes] ([SizeID], [SizeName], [BrandID], [CategoryID], [SubCategoryID], [GenderID]) VALUES (2, N'XL', 3, 1, 2, 2)
+INSERT INTO [dbo].[tblSizes] ([SizeID], [SizeName], [BrandID], [CategoryID], [SubCategoryID], [GenderID]) VALUES (3, N'XXL', 1, 1, 3, 3)
+INSERT INTO [dbo].[tblSizes] ([SizeID], [SizeName], [BrandID], [CategoryID], [SubCategoryID], [GenderID]) VALUES (4, N'XL', 1, 1, 2, 1)
+INSERT INTO [dbo].[tblSizes] ([SizeID], [SizeName], [BrandID], [CategoryID], [SubCategoryID], [GenderID]) VALUES (5, N'S', 2, 1, 2, 1)
+SET IDENTITY_INSERT [dbo].[tblSizes] OFF
